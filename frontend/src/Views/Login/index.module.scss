@@ -1,0 +1,17 @@
+@import "../../Styles/includeMedia.scss";
+
+.container {
+    max-width: 560px;
+    margin: 30px auto;
+}
+
+.forgot {
+    @include media(">576px") {
+        float: right;
+        display: inline;
+    }
+    display: block;
+}
+.title {
+    text-align: center;
+}
